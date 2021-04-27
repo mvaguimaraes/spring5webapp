@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring5webapp</name>
+	<title>spring5webapp</title>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -66,7 +66,7 @@
 	<repositories>
 		<repository>
 			<id>spring-snapshots</id>
-			<name>Spring Snapshots</name>
+			<title>Spring Snapshots</title>
 			<url>https://repo.spring.io/snapshot</url>
 			<snapshots>
 				<enabled>true</enabled>
@@ -74,7 +74,7 @@
 		</repository>
 		<repository>
 			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
+			<title>Spring Milestones</title>
 			<url>https://repo.spring.io/milestone</url>
 			<snapshots>
 				<enabled>false</enabled>
@@ -85,7 +85,7 @@
 	<pluginRepositories>
 		<pluginRepository>
 			<id>spring-snapshots</id>
-			<name>Spring Snapshots</name>
+			<title>Spring Snapshots</title>
 			<url>https://repo.spring.io/snapshot</url>
 			<snapshots>
 				<enabled>true</enabled>
@@ -93,7 +93,7 @@
 		</pluginRepository>
 		<pluginRepository>
 			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
+			<title>Spring Milestones</title>
 			<url>https://repo.spring.io/milestone</url>
 			<snapshots>
 				<enabled>false</enabled>
